@@ -4,5 +4,8 @@ const worldConst = "World"
 
 
 if (typeof helloConst === typeof worldConst) {
-    const willThisBeTrue = true or false // TODO: will this be true or false?
+    const willThisBeTrue: boolean = true
+    console.log(willThisBeTrue) // this will be true
 }
+
+
