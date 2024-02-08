@@ -5,9 +5,9 @@ const cfa = (x: string | number | boolean) => {
     if (typeof x === "number") {
       x // number
     } else {
-      x // TODO: write the type of `x` here
+      console.log(typeof x) // type: boolean
     }
   } else {
-    x // TODO: write the type of `x` here
+    console.log(typeof x) // type: string
   }
 }

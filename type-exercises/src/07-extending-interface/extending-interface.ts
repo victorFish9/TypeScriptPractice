@@ -5,7 +5,7 @@ interface Employee {
 }
 
 // TODO: manager is also an employee, but in addition a manager, so how to express that in code?
-interface Manager {
+interface Manager extends Employee {
   managerIdNumber: number;
 }
 
@@ -15,3 +15,5 @@ const manager: Manager = {
   department: "Upper management",
   managerIdNumber: 1
 }
+
+console.log(manager)
