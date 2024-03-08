@@ -4,7 +4,7 @@ interface Box<Type> {
 }
 
 // TODO: what do you need to insert inside the <>-marks to make this right?
-const stringBox: Box<> = { contents: "string" };
+const stringBox: Box<string> = { contents: "string" };
 
 // TODO: what do you need to insert inside the <>-marks to make this right?
-const numberBox: Box<> = { contents: 1 };
+const numberBox: Box<number> = { contents: 1 };

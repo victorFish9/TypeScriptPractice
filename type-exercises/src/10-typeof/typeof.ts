@@ -6,4 +6,6 @@ const sampleTodo = {
 };
 
 // TODO: how to get the type of sampleTodo automatically, so we don't need to repeat all the fields here?
-type TypeOfTodo = { title: string, description: string, completed: boolean };
+type TypeOfTodo = typeof sampleTodo;
+
+console.log("title", sampleTodo.title)

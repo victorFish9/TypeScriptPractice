@@ -2,7 +2,7 @@
 // and demonstrates how to narrow down the type using type guards.
 
 // TODO: what needs the type of this typeguard be instead of never, so that this typeguard can be used to validate a number type.
-const isNumber = (value: any): never => {
+const isNumber = (value: any): value is number => {
     return typeof value === "number";
 };
 
